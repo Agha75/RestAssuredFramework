@@ -146,4 +146,7 @@ public class PlayListTests extends BaseTest {
         assertThat(responseErr.getError().getStatus(), equalTo(expectedStatusCode));
         assertThat(responseErr.getError().getMessage(), equalTo(expectedMsg));
     }
+    public void testMethod(){
+        System.out.println("Method for testing on Jenkins");
+    }
 }
