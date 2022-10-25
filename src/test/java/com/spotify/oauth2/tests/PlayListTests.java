@@ -148,5 +148,6 @@ public class PlayListTests extends BaseTest {
     }
     public void testMethod(){
         System.out.println("Method for testing on Jenkins");
+        System.out.println("Method for testing on Jenkins");
     }
 }
