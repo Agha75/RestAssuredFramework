@@ -147,5 +147,6 @@ public class PlayListTests extends BaseTest {
         assertThat(responseErr.getError().getMessage(), equalTo(expectedMsg));
     }
     public void testMethod(){
+        System.out.println("tesitng for jenkins");
     }
 }
