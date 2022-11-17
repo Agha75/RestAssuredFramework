@@ -35,6 +35,7 @@
                 </dependencies>
             </plugin>
         </plugins>
+        <finalName>restassured-framework-annualgoals</finalName>
     </build>
     <dependencies>
         <dependency>
