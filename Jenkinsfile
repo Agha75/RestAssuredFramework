@@ -30,7 +30,9 @@ pipeline {
     }
     post{
         always{
-            emailext body: 'Jenkins pipeline executed from IDE', subject: 'Scripted Pipeline status', to: 'jenkinsjob123@gmail.com'
+            emailext body: 'Please go to ${BUILD_URL} and verify the build send from scriptive',
+             subject: 'Job '${JOB_NAME}' (${BUILD_NUMBER}) is waiting for input',
+              to: 'jenkinsjob123@gmail.com'
         }
     }
 }
